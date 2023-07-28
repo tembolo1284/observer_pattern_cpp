@@ -28,8 +28,6 @@ Follow the steps below to build and run the project:
 2. Run the project by typing in `bazel run src:Main`
 3. You can build the project manually with g++ by typing in `g++ -I lib/include src/main.cpp lib/src/*.cpp -o main`
 
-Note: If you want to run the tests, make sure you have Google Test installed, and enable the tests in the CMake configuration step (`cmake -DENABLE_TESTS=ON ..`). Then, run the tests using: `./observer_test`.
-
 ## Usage
 
 To use the Observer pattern in your own project:
